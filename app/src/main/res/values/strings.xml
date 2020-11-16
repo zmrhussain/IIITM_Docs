@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Docs Sharing App</string>
+    <string name="designation_selection">Select Designation</string>
+    <string name="login_text">Login</string>
+    <string name="register_text">register</string>
+    <string name="hint_email_text">Email</string>
+    <string name="password_text">password</string>
+    <string name="confirm_password_text">Confirm Password</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Password too short or does not match</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="upload_file">upload file</string>
+    <string name="view_files">view files</string>
+    <string name="Enter_file_name">Enter file name</string>
+
+    <string name="select_branch">Select Branch</string>
+    <string name="bcs">BCS</string>
+    <string name="imt">IMT</string>
+    <string name="img">IMG</string>
+
+    <string name="select_year">Select Year</string>
+    <string name="year1">1st Year</string>
+    <string name="year2">2nd Year</string>
+    <string name="year3">3rd Year</string>
+    <string name="year4">4th year</string>
+    <string name="year5">5th Year</string>
+
+    <string name="select_subject">Select Subject</string>
+    <string name="subject1">Subject 1</string>
+    <string name="subject2">Subject 2</string>
+    <string name="subject3">Subject 3</string>
+    <string name="subject4">Subject 4</string>
+    <string name="subject5">Subject 5</string>
+    <string name="subject6">Subject 6</string>
+</resources>

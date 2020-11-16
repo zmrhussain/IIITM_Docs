@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/horizontal_guideline"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+         />
+
+    <TextView
+        android:id="@+id/designationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/designation_selection"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/horizontal_guideline"
+        app:layout_constraintBottom_toTopOf="@id/faculty_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/faculty_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faculty"
+        android:textSize="15sp"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/student_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/designationText" />
+
+    <Button
+        android:id="@+id/student_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student"
+        android:textSize="15sp"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/faculty_button" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.49521205" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1079715160276",
+    "firebase_url": "https://iiitm-docs.firebaseio.com",
+    "project_id": "iiitm-docs",
+    "storage_bucket": "iiitm-docs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079715160276:android:a2fea239a64fb1ec885b41",
+        "android_client_info": {
+          "package_name": "application.example.iiitmdocs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079715160276-4l1p6sj427jcor2utimu6fsfkeblclgp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "application.example.iiitmdocs",
+            "certificate_hash": "7e770e0815796c9b2964bb11b305de923d2fee5a"
+          }
+        },
+        {
+          "client_id": "1079715160276-1v9l8pvfbsgr89o84f0vn2ihjj5e8hvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqV1gykxCVqhKoGejIYtal3XX-SyTnDKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079715160276-1v9l8pvfbsgr89o84f0vn2ihjj5e8hvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
